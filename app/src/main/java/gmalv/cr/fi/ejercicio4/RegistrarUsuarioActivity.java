@@ -51,6 +51,7 @@ public class RegistrarUsuarioActivity extends AppCompatActivity {
         leer();
         setPersona();
         Gson gson = new Gson();
+        listaPersona.add(persona);
         String json = gson.toJson(listaPersona);
         editor.putString(this.context.getResources().getString(R.string.preference_file_key), json);
         editor.commit();
@@ -97,5 +98,7 @@ public class RegistrarUsuarioActivity extends AppCompatActivity {
         Type type = new TypeToken<ArrayList<Persona>>() {
         }.getType();
         listaPersona = gson.fromJson(json, type);
+        if(listaPersona== null)
+            listaPersona=new ArrayList<Persona>();
     }
 }
