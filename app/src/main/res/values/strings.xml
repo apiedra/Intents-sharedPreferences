@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ejercicio#4</string>
+    <string name="preference_file_key">Personas</string>
+    <string name="preference_person">Persona</string>
+    <string name="user_exist">Usuario ya existe</string>
+    <string name="error">Error</string>
+    <string name="wrong_password">Contraseña incorrecta</string>
+    <string name="person_no_exist">La persona no ha sido registrada</string>
+    <string name="user_exist_dialog">ya se encuentra registrado</string>
+</resources>
