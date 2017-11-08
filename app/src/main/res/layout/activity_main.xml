@@ -74,6 +74,13 @@
                 android:text="Registrar"
                 android:onClick="Registrar"/>
 
+            <Button
+                android:id="@+id/buttonListar"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:onClick="Registrar"
+                android:text="Listar" />
+
 
         </GridLayout>
     </GridLayout>

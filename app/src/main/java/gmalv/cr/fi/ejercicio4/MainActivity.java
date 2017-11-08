@@ -8,7 +8,6 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 
 import com.google.gson.Gson;
@@ -95,6 +94,10 @@ public class MainActivity extends AppCompatActivity {
                             });
                     alertDialog.show();
                 }
+                break;
+            case R.id.buttonListar:
+                Intent intent = new Intent(this, ListarUsuariosActivity.class);
+                startActivity(intent);
                 break;
         }
 
