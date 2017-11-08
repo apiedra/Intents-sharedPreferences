@@ -7,4 +7,6 @@
     <string name="wrong_password">Contraseña incorrecta</string>
     <string name="person_no_exist">La persona no ha sido registrada</string>
     <string name="user_exist_dialog">ya se encuentra registrado</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
 </resources>
